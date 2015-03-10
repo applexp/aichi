@@ -10,5 +10,9 @@ application.debug=True
 def hello_world():
     return "Hello world!"
 
+@application.route('/register')
+def hello_world():
+    return "Hello register!"
+
 if __name__ == '__main__':
     application.run(host='0.0.0.0')
