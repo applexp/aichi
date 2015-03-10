@@ -11,7 +11,7 @@ def hello_world():
     return "Hello world!"
 
 @application.route('/register')
-def hello_world():
+def hello_register():
     return "Hello register!"
 
 if __name__ == '__main__':
